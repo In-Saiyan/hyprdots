@@ -1,0 +1,41 @@
+# Hyprlock Configuration - Material Style
+
+# Background and Blur Settings
+blur_strength = 12               # Adds a subtle blur for that soft Material look
+#background_color = rgba(40,13,62,0.8)  # Use main-bg from theme.css
+background_color = rgba(0, 0, 0, 0.8)  # Solid black background
+
+# Primary Colors (Based on theme.css)
+color_primary1 = rgba(40,13,62,0)     # Use bar-bg from theme.css
+color_primary2 = rgba(40,13,62,0.8)   # Use main-bg from theme.css
+color_primary3 = rgba(208,170,240,0.8) # Use main-fg from theme.css
+
+# Text Colors
+color_text1 = rgba(144,28,61,0.4)    # Use wb-act-bg from theme.css (active text bg)
+color_text2 = rgba(255,204,219,1)    # Use wb-act-fg from theme.css (active text fg)
+color_text3 = rgba(106,75,125,0.4)   # Use wb-hvr-bg from theme.css (hover bg)
+color_text4 = rgba(207,170,240,0.8)  # Use wb-hvr-fg from theme.css (hover fg)
+
+# Border Settings for a Material Style
+border_size = 4                      # Clean, minimal border around the lock elements
+border_color = rgba(255,255,255,0.1)  # Subtle white border to match Material design
+
+# Text and Font Settings
+text_size = 18                       # A medium, readable font size
+text_font = "Roboto, sans-serif"      # Roboto or a similar Material font
+text_color = rgba(255,255,255,1)      # Clean white text for contrast against the background
+
+# Unlock Feedback
+unlock_feedback = true               # Visual feedback when unlocking
+unlock_color = rgba(208,170,240,0.8)  # Matches the main-fg color for consistency
+
+# Other Settings
+background_image = "$HOME/.config/hypr/wallpaper/current_wallpaper.png"  # Set the wallpaper as background
+background_fill = cover               # Fill the entire background with the wallpaper
+
+# Cursor Settings (optional, for aesthetics)
+cursor_size = 24                      # Clean and visible cursor size
+cursor_color = rgba(208,170,240,0.8)  # Cursor matches the main-fg accent color
+
+# Blurred sections for the lockscreen (Material design aesthetic)
+blur_area = true                      # Enable blurring in lock areas
